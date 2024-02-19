@@ -1,3 +1,69 @@
 @import url('./reset.css');
 @import url('./fonts.css');
 @import url('./colors.css');
+
+.layout {
+  max-width: 21.438rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--navy);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 20px 0;
+}
+
+.navigation__logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navigation__logo img,
+.navigation__logo p {
+  display: inline-block;
+}
+
+.navigation__logo p {
+  margin-left: 4px;
+  color: var(--smoke-white);
+  font-weight: 500;
+}
+
+.navigation__bars-button {
+  background-color: transparent;
+  border: 0;
+  color: var(--smoke-white);
+}
+
+/* FOR TABLET */
+@media (min-width: 768px) {
+  .layout {
+    max-width: 42rem;
+  }
+}
+
+/* FOR SMALL DESKTOP */
+@media (min-width: 1024px) {
+  .layout {
+    max-width: 56rem;
+  }
+
+  .navigation {
+    height: 80px;
+    padding: 32px;
+  }
+}
+
+/* FOR LARGE DESKTOP */
+@media (min-width: 1440px) {
+  .layout {
+    max-width: 72.5rem;
+  }
+}
