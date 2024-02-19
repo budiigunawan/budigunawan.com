@@ -1,0 +1,25 @@
+.layout {
+  max-width: 21.438rem;
+  margin: 0 auto;
+}
+
+/* FOR TABLET */
+@media (min-width: 768px) {
+  .layout {
+    max-width: 42rem;
+  }
+}
+
+/* FOR SMALL DESKTOP */
+@media (min-width: 1024px) {
+  .layout {
+    max-width: 56rem;
+  }
+}
+
+/* FOR LARGE DESKTOP */
+@media (min-width: 1440px) {
+  .layout {
+    max-width: 72.5rem;
+  }
+}

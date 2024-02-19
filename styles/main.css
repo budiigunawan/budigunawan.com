@@ -1,11 +1,7 @@
 @import url('./reset.css');
 @import url('./fonts.css');
 @import url('./colors.css');
-
-.layout {
-  max-width: 21.438rem;
-  margin: 0 auto;
-}
+@import url('./layout.css');
 
 header {
   background-color: var(--navy);
@@ -42,28 +38,30 @@ header {
   color: var(--smoke-white);
 }
 
-/* FOR TABLET */
-@media (min-width: 768px) {
-  .layout {
-    max-width: 42rem;
-  }
+.navigation__links {
+  display: none;
 }
 
-/* FOR SMALL DESKTOP */
+/* FOR DESKTOP */
 @media (min-width: 1024px) {
-  .layout {
-    max-width: 56rem;
-  }
-
   .navigation {
     height: 80px;
     padding: 32px;
   }
-}
 
-/* FOR LARGE DESKTOP */
-@media (min-width: 1440px) {
-  .layout {
-    max-width: 72.5rem;
+  .navigation__bars-button {
+    display: none;
+  }
+
+  .navigation__links {
+    display: flex;
+    list-style-type: none;
+    width: 20.5rem;
+    justify-content: space-between;
+  }
+
+  .navigation__links a {
+    text-decoration: none;
+    color: var(--smoke-white);
   }
 }
