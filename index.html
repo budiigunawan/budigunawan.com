@@ -20,21 +20,29 @@
   <body>
     <header>
       <nav>
-        <a href="#home">
-          <img
-            src="./images/logo.png"
-            width="32px"
-            alt="Logo blue box with rocket inside"
-          />
-          <p class="poppins-medium">Budi Gunawan</p>
-        </a>
-        <ul class="poppins-medium">
+        <div class="navigation__logo">
+          <a href="#home">
+            <img
+              src="./images/logo.png"
+              width="32px"
+              alt="Logo blue box with rocket inside"
+            />
+            <p class="poppins-medium">Budi Gunawan</p>
+          </a>
+        </div>
+        <ul class="poppins-medium navigation__links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#project">Project</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <i class="fa fa-bars" style="font-size: 48px"></i>
+        <button class="navigation__bars-button">
+          <label for="dropdown">
+            <i class="fa fa-bars" style="font-size: 48px"></i>
+            <i class="fa fa-close" style="font-size: 48px"></i>
+          </label>
+          <input type="checkbox" id="dropdown" />
+        </button>
       </nav>
     </header>
 
