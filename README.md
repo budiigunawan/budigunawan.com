@@ -9,16 +9,6 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 3. 🚧 Projects: Showcase the work I've done.
 4. 📬 Contact: Contact form for visitors to reach me out.
 
-## Previews
-
-### Desktop
-
-![desktop-preview](./previews/desktop.jpg)
-
-### Mobile
-
-![mobile-preview](./previews/phone.jpg)
-
 ## Links
 
 - website: [budigunawan.com](https://budigunawan.com)
@@ -31,3 +21,13 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 - Twitter/X : [twitter.com/buigun](https://twitter.com/buigun)
 - Instagram: [instagram.com/buigun](https://instagram.com/buigun)
 - CV/Resume: [cv.budigunawan.com](https://cv.budigunawan.com)
+
+## Previews
+
+### Desktop
+
+![desktop-preview](./previews/desktop.jpg)
+
+### Mobile
+
+![mobile-preview](./previews/phone.jpg)
