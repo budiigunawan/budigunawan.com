@@ -3,36 +3,42 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 0.3px;
 }
 
 .poppins-medium {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-style: normal;
+  letter-spacing: 0.3px;
 }
 
 .poppins-semibold {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-style: normal;
+  letter-spacing: 0.3px;
 }
 
 .poppins-bold {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-style: normal;
+  letter-spacing: 0.3px;
 }
 
 .poppins-extrabold {
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   font-style: normal;
+  letter-spacing: 0.3px;
 }
 
 .poppins-black {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
   font-style: normal;
+  letter-spacing: 0.3px;
 }
 
 /* plus jakarta sans */
@@ -41,5 +47,13 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  /* font-weight: 100; */
+  letter-spacing: 0.3px;
+}
+
+/* homemade apple */
+.homemade-apple {
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.3px;
 }
