@@ -308,7 +308,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   }
 
   .about__detail {
-    gap: 24px;
+    gap: 20px;
   }
 
   .about__detail__info {
