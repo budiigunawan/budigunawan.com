@@ -51,6 +51,10 @@ header {
   color: var(--smoke-white);
 }
 
+.navigation__links a:hover {
+  color: var(--sky-blue);
+}
+
 .navigation__bars-button {
   background-color: transparent;
   border: 0;
@@ -141,6 +145,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 }
 
 .hero__info__button {
+  padding: 10px 0;
   height: 48px;
   background-color: var(--smoke-white);
   color: var(--navy);
@@ -148,6 +153,12 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   border-radius: 5px;
   font-weight: bold;
   text-align: center;
+  text-decoration: none;
+}
+
+.hero__info__button:hover {
+  background-color: var(--light-grey);
+  border: 1px solid var(--light-grey);
 }
 
 .hero__info__links {
@@ -163,9 +174,8 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   color: var(--smoke-white);
 }
 
-.hero__info__links .fa {
-  color: var(--smoke-white);
-  font-size: 14px;
+.hero__info__links a:hover {
+  color: var(--sky-blue);
 }
 
 .hero__illustration img {
