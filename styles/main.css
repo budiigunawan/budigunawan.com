@@ -1,0 +1,111 @@
+@import url('./reset.css');
+@import url('./fonts.css');
+@import url('./colors.css');
+@import url('./layout.css');
+
+header {
+  background-color: var(--navy);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 20px 0;
+}
+
+.navigation__logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navigation__logo img,
+.navigation__logo p {
+  display: inline-block;
+}
+
+.navigation__logo p {
+  margin-left: 4px;
+  color: var(--smoke-white);
+  font-weight: 500;
+}
+
+.navigation__links {
+  display: none;
+  list-style-type: none;
+  width: 20.5rem;
+  justify-content: space-between;
+}
+
+.navigation__links a,
+.m-navigation__links a {
+  text-decoration: none;
+  color: var(--smoke-white);
+}
+
+.navigation__bars-button {
+  background-color: transparent;
+  border: 0;
+  color: var(--smoke-white);
+}
+
+.navigation__bars-button input[type='checkbox'] {
+  appearance: none;
+}
+
+.navigation__bars-button .fa.fa-close {
+  display: none;
+}
+
+/* Mobile navigation's height value is 0 to make it invisible */
+.m-navigation .m-navigation__links {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.m-navigation__links li {
+  padding: 4px 0;
+}
+
+/*determining whether the header contains a checkbox input that is checked before expanding the mobile navigation's height to 140 pixels to make it visible.*/
+header:has(.navigation__bars-button input[type='checkbox']:checked)
+  .m-navigation__links {
+  margin-top: 8px;
+  height: 140px;
+}
+
+/* Hiding the bars icon on checkbox checked state */
+header:has(.navigation__bars-button input[type='checkbox']:checked)
+  .navigation__bars-button
+  .fa-bars {
+  display: none;
+}
+
+/* Showing the cross icon on checkbox checked state */
+header:has(.navigation__bars-button input[type='checkbox']:checked)
+  .navigation__bars-button
+  .fa-close {
+  display: inline-block;
+}
+
+/* FOR DESKTOP */
+@media (min-width: 1024px) {
+  .navigation {
+    height: 80px;
+    padding: 32px;
+  }
+
+  .navigation__bars-button {
+    display: none;
+  }
+
+  .navigation__links {
+    display: flex;
+  }
+}
