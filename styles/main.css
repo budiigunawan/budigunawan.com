@@ -288,4 +288,47 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   .hero__illustration {
     width: 42%;
   }
+
+  /* ABOUT */
+  .about {
+    padding: 96px 0;
+  }
+
+  .about__container {
+    flex-direction: row;
+  }
+
+  .about__main,
+  .about__detail {
+    width: 50%;
+  }
+
+  .about__main__title {
+    font-size: 68px;
+  }
+
+  .about__detail {
+    gap: 24px;
+  }
+
+  .about__detail__info {
+    font-size: 18px;
+  }
+
+  .about__detail__title {
+    font-size: 30px;
+  }
+
+  .about__detail__stacks {
+    gap: 10px;
+    font-size: 40px;
+  }
+}
+
+/* FOR LARGE DESKTOP */
+@media (min-width: 1440px) {
+  /* ABOUT */
+  .about__main__title {
+    font-size: 80px;
+  }
 }
