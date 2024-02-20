@@ -287,6 +287,10 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 .projects__card__see-more:hover {
   color: var(--sky-blue);
 }
+
+.projects__card__see-more i {
+  vertical-align: middle;
+}
 /* =================================================================================== */
 /* FOR DESKTOP */
 @media (min-width: 1024px) {
