@@ -225,6 +225,68 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   font-size: 32px;
 }
 
+/* PROJECTS */
+.projects {
+  background-color: var(--navy);
+  padding: 42px 0;
+  color: var(--smoke-white);
+}
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.projects__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projects__cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.projects__card {
+  width: 100%;
+  border: 1px solid var(--light-grey);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 5px;
+}
+
+.projects__card__title {
+  font-weight: bold;
+}
+
+.projects__card__subtitle {
+  font-size: 14px;
+}
+
+.projects__card__stacks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.projects__card__image {
+  width: 100%;
+  height: auto;
+}
+
+.projects__card__see-more {
+  text-decoration: none;
+  color: var(--smoke-white);
+}
+
+.projects__card__see-more:hover {
+  color: var(--sky-blue);
+}
 /* =================================================================================== */
 /* FOR DESKTOP */
 @media (min-width: 1024px) {
