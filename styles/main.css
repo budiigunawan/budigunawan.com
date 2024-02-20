@@ -183,7 +183,49 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   height: auto;
 }
 
-/* =============================== */
+/* ABOUT */
+.about {
+  background-color: var(--dark-navy);
+  padding: 42px 0;
+  color: var(--smoke-white);
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about__main__title {
+  font-size: 44px;
+  line-height: 110%;
+  font-weight: bold;
+}
+
+.about__main__title--sky-blue {
+  color: var(--sky-blue);
+}
+
+.about__detail {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about__detail__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about__detail__stacks {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 8px;
+  font-size: 32px;
+}
+
+/* =================================================================================== */
 /* FOR DESKTOP */
 @media (min-width: 1024px) {
   /* NAVIGATION */
