@@ -106,7 +106,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 
 /* HERO */
 .hero {
-  padding-top: 56px;
+  padding: 80px 0;
   display: flex;
   flex-direction: column;
   background-color: var(--navy);
@@ -186,7 +186,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 /* ABOUT */
 .about {
   background-color: var(--dark-navy);
-  padding: 42px 0;
+  padding: 80px 0;
   color: var(--smoke-white);
 }
 
@@ -228,7 +228,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 /* PROJECTS */
 .projects {
   background-color: var(--navy);
-  padding: 42px 0;
+  padding: 80px 0;
   color: var(--smoke-white);
 }
 
@@ -291,6 +291,99 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 
 .projects__card__see-more i {
   vertical-align: middle;
+}
+
+.contact {
+  background-color: var(--dark-navy);
+  padding: 80px 0;
+  color: var(--smoke-white);
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact__illustration {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  order: 2;
+}
+
+.contact__illustration__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+span.contact__illustration__title--sky-blue {
+  color: var(--sky-blue);
+}
+
+.contact__illustration__subtitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact__illustration__image {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+}
+
+.contact__contact-me {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  order: 1;
+  background-color: var(--light-grey);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact__contact-me__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--navy);
+}
+
+.contact__contact-me__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__contact-me__form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact__contact-me__form__group label {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.contact__contact-me__form__group input,
+.contact__contact-me__form__group textarea {
+  padding: 10px;
+  font-size: 14px;
+  background-color: var(--smoke-white);
+  border: 1px solid var(--smoke-white);
+  border-radius: 5px;
+}
+
+.contact__contact-me__form__button {
+  padding: 20px;
+  color: var(--smoke-white);
+  background-color: var(--navy);
+  border: 1px solid var(--navy);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
 }
 /* =================================================================================== */
 /* FOR DESKTOP */
