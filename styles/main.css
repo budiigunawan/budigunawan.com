@@ -387,6 +387,45 @@ span.contact__illustration__title--sky-blue {
   font-size: 16px;
   font-weight: 600;
 }
+
+/* FOOTER */
+.footer {
+  background-color: var(--navy);
+  padding: 16px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--smoke-white);
+}
+
+.footer__title {
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  /* width: 120px; */
+  gap: 12px;
+}
+
+.footer__links li a {
+  text-decoration: none;
+  color: var(--smoke-white);
+  font-size: 20px;
+}
+
+.footer__subtitle {
+  padding-top: 18px;
+  font-size: 14px;
+}
+
 /* =================================================================================== */
 /* FOR DESKTOP */
 @media (min-width: 1024px) {
@@ -552,6 +591,25 @@ span.contact__illustration__title--sky-blue {
 
   .contact__contact-me__form__button {
     font-size: 18px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 24px;
+  }
+
+  .footer__title {
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+
+  .footer__links li a {
+    font-size: 28px;
+  }
+
+  .footer__subtitle {
+    padding-top: 36px;
+    font-size: 16px;
   }
 }
 
