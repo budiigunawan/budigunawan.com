@@ -47,7 +47,7 @@
           <ul class="poppins-medium m-navigation__links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#project">Project</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -407,8 +407,40 @@
         </div>
       </div>
 
-      <div id="contact">
-        <p>this for contact</p>
+      <div id="contact" class="contact">
+        <div class="layout contact__container">
+          <div class="contact__illustration">
+            <h4 class="contact__illustration__subtitle">Don't be shy</h4>
+            <h3 class="contact__illustration__title">
+              Let's talk about <span>anything</span>, I'm all ears
+            </h3>
+            <img
+              src="./images/peep.png"
+              alt="Animation version of me, smiling and holding a yellow cup"
+            />
+          </div>
+          <div class="contact__contact-me">
+            <h3 class="contact__contact-me__title">Contact me</h3>
+            <form
+              action="mailto:gunadra@gmail.com"
+              method="post"
+              enctype="text/plain"
+              class="contact__contact-me__form"
+            >
+              <div class="contact__contact-me__form__group">
+                <label for="name">Name</label>
+                <input type="text" name="name" />
+              </div>
+              <div class="contact__contact-me__form__group">
+                <label for="email">Email</label>
+                <input type="email" name="email" />
+              </div>
+              <button type="submit" class="contact__contact-me__form__button">
+                Send message
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </main>
 
