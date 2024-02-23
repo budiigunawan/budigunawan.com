@@ -100,11 +100,14 @@
             </ul>
           </div>
           <div class="hero__illustration">
-            <img
-              class="hero__image"
-              src="./images/hero1.jpg"
-              alt="I am wearing blue shirt and smiling to you"
-            />
+            <picture>
+              <source srcset="./images/hero.jpg" media="(max-width: 425px)" />
+              <source srcset="./images/bighero.jpg" />
+              <img
+                src="./images/hero.jpg"
+                alt="I am wearing blue shirt and smiling to you"
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -421,7 +424,7 @@
             </h3>
             <img
               class="contact__illustration__image"
-              src="./images/peep2.png"
+              src="./images/peep.png"
               alt="Animation version of me, smiling and holding a yellow cup"
             />
           </div>
