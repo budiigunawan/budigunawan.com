@@ -179,7 +179,6 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 }
 
 .hero__illustration img {
-  max-width: 100%;
   height: auto;
 }
 
@@ -328,7 +327,7 @@ span.contact__illustration__title--sky-blue {
 }
 
 .contact__illustration__image {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border: 1px solid var(--light-grey);
   border-radius: 5px;
@@ -487,7 +486,7 @@ span.contact__illustration__title--sky-blue {
   }
 
   .hero__illustration {
-    width: 42%;
+    max-width: 42%;
   }
 
   /* ABOUT */
