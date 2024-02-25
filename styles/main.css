@@ -262,7 +262,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   font-weight: bold;
 }
 
-.projects__card__status,
+.projects__card__role,
 .projects__card__subtitle {
   font-size: 14px;
 }
@@ -538,7 +538,7 @@ span.contact__illustration__title--sky-blue {
     font-size: 18px;
   }
 
-  .projects__card__status,
+  .projects__card__role,
   .projects__card__subtitle {
     font-size: 16px;
   }
