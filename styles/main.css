@@ -401,6 +401,11 @@ span.contact__illustration__title--sky-blue {
   color: var(--smoke-white);
 }
 
+.footer__container--top-line {
+  border-top: 1px solid var(--light-grey);
+  padding-top: 16px;
+}
+
 .footer__title {
   font-size: 14px;
   padding-bottom: 4px;
@@ -601,6 +606,10 @@ span.contact__illustration__title--sky-blue {
   /* FOOTER */
   .footer {
     padding: 24px;
+  }
+
+  .footer__container--top-line {
+    padding-top: 24px;
   }
 
   .footer__title {
