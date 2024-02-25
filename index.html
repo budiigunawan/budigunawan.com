@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Budi Gunawan's personal website. A place to show my profile, projects, and my experience in web development journey."
+    />
     <title>Budi Gunawan</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/main.css" />
@@ -55,7 +59,7 @@
     </header>
 
     <main>
-      <div id="home" class="hero">
+      <section id="home" class="hero">
         <div class="layout hero__container">
           <div class="hero__info">
             <h3 class="hero__info__eyebrow-title homemade-apple">Hello 👋</h3>
@@ -110,9 +114,9 @@
             </picture>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="about" class="about">
+      <section id="about" class="about">
         <div class="layout about__container">
           <div class="about__main">
             <h2 class="about__main__title plus-jakarta">
@@ -155,19 +159,28 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="projects" class="projects">
+      <section id="projects" class="projects">
         <div class="layout projects__container">
           <h3 class="projects__title plus-jakarta">Projects</h3>
           <div class="projects__cards-container">
             <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Project Name</h4>
+              <h4 class="projects__card__title plus-jakarta">Magpie</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
               <p class="projects__card__subtitle poppins-regular">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                nisi corporis rem sequi, quod eos.
+                Order management system that automates tracking the number of
+                orders and stock in various popular e-commerces in Indonesia.
               </p>
               <div class="projects__card__stacks">
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                  alt="JavaScript"
+                />
                 <img
                   loading="lazy"
                   height="20px"
@@ -177,44 +190,42 @@
                 <img
                   loading="lazy"
                   height="20px"
-                  src="https://img.shields.io/badge/-TypeScript-526d82?style=flat&amp;logo=typescript"
-                  alt="TypeScript"
+                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
+                  alt="chakra-ui"
                 />
                 <img
                   loading="lazy"
                   height="20px"
-                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
-                  alt="chakra-ui"
+                  src="https://img.shields.io/badge/-Cypress-526d82?style=flat&amp;logo=cypress"
+                  alt="cypress"
                 />
               </div>
               <img
+                loading="lazy"
                 class="projects__card__image"
-                src="https://placehold.jp/312x190.png"
+                src="./images/project-magpie.png"
                 alt="Project name's screenshoot"
               />
-              <a
+              <!-- <a
                 class="projects__card__see-more poppins-regular"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 See more <span><i class="fas fa-arrow-right"></i></span>
-              </a>
+              </a> -->
             </div>
 
             <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Project Name</h4>
+              <h4 class="projects__card__title plus-jakarta">Sentichat</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
               <p class="projects__card__subtitle poppins-regular">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                nisi corporis rem sequi, quod eos.
+                Chat widget with Seamless AI Integration. Optimise your search
+                and empower your knowledgebase.
               </p>
               <div class="projects__card__stacks">
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
-                  alt="React"
-                />
                 <img
                   loading="lazy"
                   height="20px"
@@ -224,8 +235,20 @@
                 <img
                   loading="lazy"
                   height="20px"
-                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
-                  alt="chakra-ui"
+                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                  alt="React"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-Sass-526d82?style=flat&amp;logo=sass"
+                  alt="Sass"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-Lit-526d82?style=flat&amp;logo=lit"
+                  alt="lit"
                 />
               </div>
               <img
@@ -233,40 +256,43 @@
                 src="https://placehold.jp/312x190.png"
                 alt="Project name's screenshoot"
               />
-              <a
+              <!-- <a
                 class="projects__card__see-more poppins-regular"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 See more <span><i class="fas fa-arrow-right"></i></span>
-              </a>
+              </a> -->
             </div>
 
             <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Project Name</h4>
+              <h4 class="projects__card__title plus-jakarta">Performa</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
               <p class="projects__card__subtitle poppins-regular">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                nisi corporis rem sequi, quod eos.
+                An employee performance management system that manages OKR and
+                performance review.
               </p>
               <div class="projects__card__stacks">
                 <img
                   loading="lazy"
                   height="20px"
-                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
-                  alt="React"
+                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                  alt="JavaScript"
                 />
                 <img
                   loading="lazy"
                   height="20px"
-                  src="https://img.shields.io/badge/-TypeScript-526d82?style=flat&amp;logo=typescript"
-                  alt="TypeScript"
+                  src="https://img.shields.io/badge/-Vue-526d82?style=flat&amp;logo=vue.js"
+                  alt="Vue"
                 />
                 <img
                   loading="lazy"
                   height="20px"
-                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
-                  alt="chakra-ui"
+                  src="https://img.shields.io/badge/-Sass-526d82?style=flat&amp;logo=sass"
+                  alt="Sass"
                 />
               </div>
               <img
@@ -274,23 +300,32 @@
                 src="https://placehold.jp/312x190.png"
                 alt="Project name's screenshoot"
               />
-              <a
+              <!-- <a
                 class="projects__card__see-more poppins-regular"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 See more <span><i class="fas fa-arrow-right"></i></span>
-              </a>
+              </a> -->
             </div>
 
             <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Project Name</h4>
+              <h4 class="projects__card__title plus-jakarta">OMG Oh My Glam</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
               <p class="projects__card__subtitle poppins-regular">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                nisi corporis rem sequi, quod eos.
+                Landing page for OMG Oh My Glam. Indonesian local brand that
+                provides make up and skincare.
               </p>
               <div class="projects__card__stacks">
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                  alt="JavaScript"
+                />
                 <img
                   loading="lazy"
                   height="20px"
@@ -300,8 +335,8 @@
                 <img
                   loading="lazy"
                   height="20px"
-                  src="https://img.shields.io/badge/-TypeScript-526d82?style=flat&amp;logo=typescript"
-                  alt="TypeScript"
+                  src="https://img.shields.io/badge/-Gatsby-526d82?style=flat&amp;logo=gatsby"
+                  alt="Gatsby"
                 />
                 <img
                   loading="lazy"
@@ -311,27 +346,37 @@
                 />
               </div>
               <img
+                loading="lazy"
                 class="projects__card__image"
-                src="https://placehold.jp/312x190.png"
+                src="./images/project-omg.png"
                 alt="Project name's screenshoot"
               />
-              <a
+              <!-- <a
                 class="projects__card__see-more poppins-regular"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 See more <span><i class="fas fa-arrow-right"></i></span>
-              </a>
+              </a> -->
             </div>
 
             <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Project Name</h4>
+              <h4 class="projects__card__title plus-jakarta">Lifeline</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
               <p class="projects__card__subtitle poppins-regular">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                nisi corporis rem sequi, quod eos.
+                Plasma convalescent donors platform. This web app is securing
+                runner up in the Paragon Hackathon.
               </p>
               <div class="projects__card__stacks">
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                  alt="JavaScript"
+                />
                 <img
                   loading="lazy"
                   height="20px"
@@ -341,76 +386,30 @@
                 <img
                   loading="lazy"
                   height="20px"
-                  src="https://img.shields.io/badge/-TypeScript-526d82?style=flat&amp;logo=typescript"
-                  alt="TypeScript"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
                   src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
                   alt="chakra-ui"
                 />
               </div>
               <img
+                loading="lazy"
                 class="projects__card__image"
-                src="https://placehold.jp/312x190.png"
+                src="./images/project-lifeline.png"
                 alt="Project name's screenshoot"
               />
-              <a
+              <!-- <a
                 class="projects__card__see-more poppins-regular"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 See more <span><i class="fas fa-arrow-right"></i></span>
-              </a>
-            </div>
-
-            <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Project Name</h4>
-              <p class="projects__card__subtitle poppins-regular">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                nisi corporis rem sequi, quod eos.
-              </p>
-              <div class="projects__card__stacks">
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
-                  alt="React"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-TypeScript-526d82?style=flat&amp;logo=typescript"
-                  alt="TypeScript"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
-                  alt="chakra-ui"
-                />
-              </div>
-              <img
-                class="projects__card__image"
-                src="https://placehold.jp/312x190.png"
-                alt="Project name's screenshoot"
-              />
-              <a
-                class="projects__card__see-more poppins-regular"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                See more <span><i class="fas fa-arrow-right"></i></span>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="contact" class="contact">
+      <section id="contact" class="contact">
         <div class="layout contact__container">
           <div class="contact__illustration">
             <h4 class="contact__illustration__subtitle plus-jakarta">
@@ -466,7 +465,7 @@
             </form>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer class="footer">
