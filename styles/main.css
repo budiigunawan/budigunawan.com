@@ -296,7 +296,8 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 /* CONTACT */
 .contact {
   background-color: var(--dark-navy);
-  padding: 80px 0;
+  padding-top: 136px;
+  padding-bottom: 80px;
   color: var(--smoke-white);
 }
 
@@ -557,6 +558,10 @@ span.contact__illustration__title--sky-blue {
   }
 
   /* CONTACT */
+  .contact {
+    padding-top: 160px;
+  }
+
   .contact__container {
     flex-direction: row;
     gap: 40px;
