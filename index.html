@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Budi Gunawan's personal website. A place to show my profile, projects, and my experience in web development journey."
+    />
     <title>Budi Gunawan</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/main.css" />
@@ -12,10 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/1d3eb649b6.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -32,8 +36,8 @@
           <ul class="poppins-medium navigation__links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="/contact/">Contact</a></li>
           </ul>
           <button class="navigation__bars-button">
             <label for="dropdown">
@@ -47,30 +51,404 @@
           <ul class="poppins-medium m-navigation__links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="/contact/">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
-      <div id="home">
-        <p>this for home</p>
-      </div>
-      <div id="about">
-        <p>this for about</p>
-      </div>
-      <div id="projects">
-        <p>this for projects</p>
-      </div>
-      <div id="contact">
-        <p>this for contact</p>
-      </div>
+      <section id="home" class="hero">
+        <div class="layout hero__container">
+          <div class="hero__info">
+            <h3 class="hero__info__eyebrow-title homemade-apple">Hello 👋</h3>
+            <h1 class="hero__info__title plus-jakarta">
+              My name is Budi Gunawan
+            </h1>
+            <p class="hero__info__sub-title poppins-regular">
+              I am web developer. I currently work as personal contributor at
+              <u>Paragon Corp</u>, where I help develop frontend side of web app
+              with <u>React</u> ecosystem.
+            </p>
+            <a href="#about" class="hero__info__button plus-jakarta"
+              >About me</a
+            >
+            <ul class="hero__info__links poppins-medium">
+              <li>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-file"></i>
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/buigun/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-linkedin-square"></i>
+                  in/buigun
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/budiigunawan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa fa-github"></i>
+                  budiigunawan
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="hero__illustration">
+            <picture>
+              <source srcset="./images/hero.jpg" media="(max-width: 425px)" />
+              <source srcset="./images/bighero.jpg" />
+              <img
+                src="./images/hero.jpg"
+                alt="I am wearing blue shirt and smiling to you"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="layout about__container">
+          <div class="about__main">
+            <h2 class="about__main__title plus-jakarta">
+              I love to explore new things,
+              <span class="about__main__title--sky-blue">write codes</span>, and
+              share knowledge
+            </h2>
+          </div>
+          <div class="about__detail">
+            <h3 class="about__detail__title plus-jakarta">About me</h3>
+            <p class="about__detail__info poppins-regular">
+              Hello world! I am Budi. I graduated from Universitas Gadjah Mada
+              with bachelor of network engineering in 2019, right before
+              COVID-19 strikes. During pandemic, I've nothing much to do so I
+              decided to learn web development from the Internet and join
+              Fullstack JavaScript Bootcamp at Hacktiv8.
+            </p>
+            <p class="about__detail__info poppins-regular">
+              I really enjoy learning about making websites, especially the
+              frontend part. It's like being the architect and artist of the
+              online world, ensuring that websites not only function well but
+              also leave a lasting impression on visitors. This website is a
+              place to share what I can do with both the creative and technical
+              aspects of web development.
+            </p>
+            <h3 class="about__detail__title plus-jakarta">Tech stacks</h3>
+            <ul class="about__detail__stacks">
+              <li>
+                <i class="fab fa-react" title="React JS"></i>
+              </li>
+              <li>
+                <i class="fab fa-vuejs" title="Vue JS"></i>
+              </li>
+              <li>
+                <i class="fab fa-js-square" title="JavaScript"></i>
+              </li>
+              <li>
+                <i class="fab fa-node-js" title="Node JS"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="layout projects__container">
+          <h3 class="projects__title plus-jakarta">Projects</h3>
+          <div class="projects__cards-container">
+            <div class="projects__card">
+              <h4 class="projects__card__title plus-jakarta">Magpie</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
+              <p class="projects__card__subtitle poppins-regular">
+                Order management system that automates tracking the number of
+                orders and stock in various popular e-commerces in Indonesia.
+              </p>
+              <div class="projects__card__stacks">
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                  alt="JavaScript"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                  alt="React"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
+                  alt="chakra-ui"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-Cypress-526d82?style=flat&amp;logo=cypress"
+                  alt="cypress"
+                />
+              </div>
+              <img
+                loading="lazy"
+                class="projects__card__image"
+                src="./images/project-magpie.png"
+                alt="Project name's screenshoot"
+              />
+              <!-- <a
+                class="projects__card__see-more poppins-regular"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See more <span><i class="fas fa-arrow-right"></i></span>
+              </a> -->
+            </div>
+
+            <div class="projects__card">
+              <h4 class="projects__card__title plus-jakarta">Sentichat</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
+              <p class="projects__card__subtitle poppins-regular">
+                Chat widget with Seamless AI Integration. Optimise your search
+                and empower your knowledgebase.
+              </p>
+              <div class="projects__card__stacks">
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-TypeScript-526d82?style=flat&amp;logo=typescript"
+                  alt="TypeScript"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                  alt="React"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-Sass-526d82?style=flat&amp;logo=sass"
+                  alt="Sass"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-Lit-526d82?style=flat&amp;logo=lit"
+                  alt="lit"
+                />
+              </div>
+              <img
+                class="projects__card__image"
+                src="https://placehold.jp/312x190.png"
+                alt="Project name's screenshoot"
+              />
+              <!-- <a
+                class="projects__card__see-more poppins-regular"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See more <span><i class="fas fa-arrow-right"></i></span>
+              </a> -->
+            </div>
+
+            <div class="projects__card">
+              <h4 class="projects__card__title plus-jakarta">Performa</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
+              <p class="projects__card__subtitle poppins-regular">
+                An employee performance management system that manages OKR and
+                performance review.
+              </p>
+              <div class="projects__card__stacks">
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                  alt="JavaScript"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-Vue-526d82?style=flat&amp;logo=vue.js"
+                  alt="Vue"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-Sass-526d82?style=flat&amp;logo=sass"
+                  alt="Sass"
+                />
+              </div>
+              <img
+                class="projects__card__image"
+                src="https://placehold.jp/312x190.png"
+                alt="Project name's screenshoot"
+              />
+              <!-- <a
+                class="projects__card__see-more poppins-regular"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See more <span><i class="fas fa-arrow-right"></i></span>
+              </a> -->
+            </div>
+
+            <div class="projects__card">
+              <h4 class="projects__card__title plus-jakarta">OMG Oh My Glam</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
+              <p class="projects__card__subtitle poppins-regular">
+                Landing page for OMG Oh My Glam. Indonesian local brand that
+                provides make up and skincare.
+              </p>
+              <div class="projects__card__stacks">
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                  alt="JavaScript"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                  alt="React"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-Gatsby-526d82?style=flat&amp;logo=gatsby"
+                  alt="Gatsby"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
+                  alt="chakra-ui"
+                />
+              </div>
+              <img
+                loading="lazy"
+                class="projects__card__image"
+                src="./images/project-omg.png"
+                alt="Project name's screenshoot"
+              />
+              <!-- <a
+                class="projects__card__see-more poppins-regular"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See more <span><i class="fas fa-arrow-right"></i></span>
+              </a> -->
+            </div>
+
+            <div class="projects__card">
+              <h4 class="projects__card__title plus-jakarta">Lifeline</h4>
+              <p class="projects__card__role poppins-regular">
+                Role: Frontend Developer
+              </p>
+              <p class="projects__card__subtitle poppins-regular">
+                Plasma convalescent donors platform. This web app is securing
+                runner up in the Paragon Hackathon.
+              </p>
+              <div class="projects__card__stacks">
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                  alt="JavaScript"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                  alt="React"
+                />
+                <img
+                  loading="lazy"
+                  height="20px"
+                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
+                  alt="chakra-ui"
+                />
+              </div>
+              <img
+                loading="lazy"
+                class="projects__card__image"
+                src="./images/project-lifeline.png"
+                alt="Project name's screenshoot"
+              />
+              <!-- <a
+                class="projects__card__see-more poppins-regular"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See more <span><i class="fas fa-arrow-right"></i></span>
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <p>this for footer</p>
+    <footer class="footer">
+      <div class="layout footer__container footer__container--top-line">
+        <p class="footer__title plus-jakarta">Reach me out</p>
+        <ul class="footer__links">
+          <li>
+            <a href="/contact/">
+              <i class="fa fa-envelope-o" title="contact me"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/buigun/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-linkedin-square" title="linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/budiigunawan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-github" title="github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://medium.com/@buigun"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-medium" title="medium"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="footer__subtitle plus-jakarta">© Budi Gunawan 2024</p>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Budi Gunawan's personal website. A place to show my profile, projects, and my experience in web development journey."
+    />
+    <title>Budi Gunawan</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1d3eb649b6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="layout">
+        <div class="navigation">
+          <a class="navigation__logo" href="/#home">
+            <img
+              src="../images/logo.png"
+              height="24px"
+              alt="Logo blue box with rocket inside"
+            />
+            <p class="poppins-medium">Budi Gunawan</p>
+          </a>
+          <ul class="poppins-medium navigation__links">
+            <li><a href="/#home">Home</a></li>
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#projects">Projects</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+          <button class="navigation__bars-button">
+            <label for="dropdown">
+              <i class="fa fa-bars"></i>
+              <i class="fa fa-close"></i>
+            </label>
+            <input type="checkbox" id="dropdown" />
+          </button>
+        </div>
+        <div class="m-navigation">
+          <ul class="poppins-medium m-navigation__links">
+            <li><a href="/#home">Home</a></li>
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#projects">Projects</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contact" class="contact">
+        <div class="layout contact__container">
+          <div class="contact__illustration">
+            <h4 class="contact__illustration__subtitle plus-jakarta">
+              Don't be shy
+            </h4>
+            <h3 class="contact__illustration__title plus-jakarta">
+              Let's talk about
+              <span class="contact__illustration__title--sky-blue"
+                >anything</span
+              >, I'm all ears
+            </h3>
+            <img
+              class="contact__illustration__image"
+              src="../images/peep.png"
+              alt="Animation version of me, smiling and holding a yellow cup"
+            />
+          </div>
+          <div class="contact__contact-me">
+            <h3 class="contact__contact-me__title plus-jakarta">Contact me</h3>
+            <form
+              action="mailto:budiindra.g@gmail.com"
+              method="post"
+              enctype="text/plain"
+              class="contact__contact-me__form"
+            >
+              <div class="contact__contact-me__form__group poppins-regular">
+                <label class="plus-jakarta" for="name">Your name</label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your fullname"
+                  required
+                />
+              </div>
+              <div class="contact__contact-me__form__group poppins-regular">
+                <label class="plus-jakarta" for="message">Your Messages</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="8"
+                  placeholder="Leave whatever you like to say—message, appreciation, suggestions."
+                  required
+                  maxlength="500"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="contact__contact-me__form__button plus-jakarta"
+              >
+                Send message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="layout footer__container">
+        <p class="footer__title plus-jakarta">Reach me out</p>
+        <ul class="footer__links">
+          <li>
+            <a href="/contact/">
+              <i class="fa fa-envelope-o" title="contact me"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/buigun/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-linkedin-square" title="linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/budiigunawan"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa fa-github" title="github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://medium.com/@buigun"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-medium" title="medium"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="footer__subtitle plus-jakarta">© Budi Gunawan 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
