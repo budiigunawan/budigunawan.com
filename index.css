@@ -702,6 +702,10 @@ span.contact__illustration__title--sky-blue {
     font-size: 40px;
   }
 
+  .projects__title {
+    font-size: 30px;
+  }
+
   .projects__cards-container {
     gap: 40px;
     justify-content: center;
