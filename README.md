@@ -25,7 +25,7 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 - Linkedin: [linkedin.com/in/buigun](https://linkedin.com/in/buigun)
 - Twitter/X : [twitter.com/buigun](https://twitter.com/buigun)
 - Instagram: [instagram.com/buigun](https://instagram.com/buigun)
-- CV/Resume: [cv.budigunawan.com](https://cv.budigunawan.com)
+- CV/Resume: [cv.budigunawan.com](https://drive.google.com/file/d/1vwh0zGvqo1MZ3ejR88LS1R3Xfv9VCLdZ/view?usp=drive_link)
 
 ## Previews
 
