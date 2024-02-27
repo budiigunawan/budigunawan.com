@@ -1,7 +1,6 @@
 @import url('./colors.css');
-@import url('./layout.css');
 
-/* RESET CSS */
+/* ===================== RESET CSS START =================== */
 /* source: https://www.joshwcomeau.com/css/custom-css-reset/ */
 /*
   1. Use a more-intuitive box-sizing model.
@@ -65,6 +64,36 @@ h6 {
 #__next {
   isolation: isolate;
 }
+/* ===================== RESET CSS END =================== */
+
+/* ===================== LAYOUT START =================== */
+.layout {
+  max-width: 21.438rem;
+  margin: 0 auto;
+}
+
+/* FOR TABLET */
+@media (min-width: 768px) {
+  .layout {
+    max-width: 42rem;
+  }
+}
+
+/* FOR SMALL DESKTOP */
+@media (min-width: 1024px) {
+  .layout {
+    max-width: 56rem;
+  }
+}
+
+/* FOR LARGE DESKTOP */
+@media (min-width: 1440px) {
+  .layout {
+    max-width: 72.5rem;
+  }
+}
+
+/* ===================== LAYOUT END ===================== */
 
 /* ==================== FONTS START ===================== */
 /* poppins */
