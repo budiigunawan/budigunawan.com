@@ -1,7 +1,173 @@
-@import url('./reset.css');
-@import url('./fonts.css');
-@import url('./colors.css');
-@import url('./layout.css');
+/* ===================== RESET CSS START =================== */
+/* source: https://www.joshwcomeau.com/css/custom-css-reset/ */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+/* ===================== RESET CSS END =================== */
+
+/* ===================== COLORS VARIABLE START =================== */
+:root {
+  --dark-navy: #212a3e;
+  --navy: #27374d;
+  --sky-blue: #02add2;
+  --grey: #526d82;
+  --light-grey: #9db2bf;
+  --smoke-white: #dde6ed;
+}
+/* ===================== COLORS VARIABLE END =================== */
+
+/* ===================== LAYOUT START =================== */
+.layout {
+  max-width: 21.438rem;
+  margin: 0 auto;
+}
+
+/* FOR TABLET */
+@media (min-width: 768px) {
+  .layout {
+    max-width: 42rem;
+  }
+}
+
+/* FOR SMALL DESKTOP */
+@media (min-width: 1024px) {
+  .layout {
+    max-width: 56rem;
+  }
+}
+
+/* FOR LARGE DESKTOP */
+@media (min-width: 1440px) {
+  .layout {
+    max-width: 72.5rem;
+  }
+}
+
+/* ===================== LAYOUT END ===================== */
+
+/* ==================== FONTS START ===================== */
+/* poppins */
+.poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+
+.poppins-medium {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+
+.poppins-semibold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+
+.poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+
+.poppins-extrabold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+
+.poppins-black {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+
+/* plus jakarta sans */
+
+.plus-jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+
+/* homemade apple */
+.homemade-apple {
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.3px;
+}
+
+/* ==================== FONTS END ===================== */
+
+/* ==================== COMPONENTS START ===================== */
 
 /* NAVIGATION */
 header {
@@ -536,6 +702,10 @@ span.contact__illustration__title--sky-blue {
     font-size: 40px;
   }
 
+  .projects__title {
+    font-size: 30px;
+  }
+
   .projects__cards-container {
     gap: 40px;
     justify-content: center;
@@ -645,3 +815,5 @@ span.contact__illustration__title--sky-blue {
     font-size: 80px;
   }
 }
+
+/* ==================== FONTS START ===================== */
