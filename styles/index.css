@@ -1,5 +1,3 @@
-@import url('./colors.css');
-
 /* ===================== RESET CSS START =================== */
 /* source: https://www.joshwcomeau.com/css/custom-css-reset/ */
 /*
@@ -65,6 +63,17 @@ h6 {
   isolation: isolate;
 }
 /* ===================== RESET CSS END =================== */
+
+/* ===================== COLORS VARIABLE START =================== */
+:root {
+  --dark-navy: #212a3e;
+  --navy: #27374d;
+  --sky-blue: #02add2;
+  --grey: #526d82;
+  --light-grey: #9db2bf;
+  --smoke-white: #dde6ed;
+}
+/* ===================== COLORS VARIABLE END =================== */
 
 /* ===================== LAYOUT START =================== */
 .layout {
@@ -157,6 +166,8 @@ h6 {
 }
 
 /* ==================== FONTS END ===================== */
+
+/* ==================== COMPONENTS START ===================== */
 
 /* NAVIGATION */
 header {
@@ -800,3 +811,5 @@ span.contact__illustration__title--sky-blue {
     font-size: 80px;
   }
 }
+
+/* ==================== FONTS START ===================== */
