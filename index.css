@@ -861,6 +861,10 @@ span.contact__illustration__title--sky-blue {
     font-size: 28px;
   }
 
+  .footer__links li a:hover {
+    color: var(--sky-blue);
+  }
+
   .footer__subtitle {
     padding-top: 36px;
     font-size: 16px;
