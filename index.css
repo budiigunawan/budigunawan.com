@@ -217,7 +217,8 @@ header {
   color: var(--smoke-white);
 }
 
-.navigation__links a:hover {
+.navigation__links a:hover,
+.navigation__links a.link--active {
   color: var(--sky-blue);
 }
 
