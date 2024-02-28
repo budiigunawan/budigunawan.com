@@ -382,12 +382,25 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   font-weight: bold;
 }
 
+.about__detail__subtitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .about__detail__stacks {
   display: flex;
-  list-style: none;
-  padding: 0;
   gap: 8px;
-  font-size: 32px;
+  flex-wrap: wrap;
+}
+
+.tooltip .tooltip-text {
+  display: none;
+}
+
+.about__detail__stacks__icon {
+  padding: 8px;
+  background-color: var(--navy);
+  border-radius: 5px;
 }
 
 /* PROJECTS */
@@ -693,13 +706,60 @@ span.contact__illustration__title--sky-blue {
     font-size: 18px;
   }
 
+  .about__detail__info span a {
+    color: var(--sky-blue);
+  }
+
   .about__detail__title {
     font-size: 30px;
   }
 
-  .about__detail__stacks {
+  .about__detail__subtitle {
+    font-size: 24px;
+  }
+
+  .about__detail__stacks-two {
     gap: 10px;
     font-size: 40px;
+  }
+
+  .tooltip {
+    position: relative;
+  }
+
+  .tooltip:hover {
+    cursor: pointer;
+  }
+
+  .tooltip .tooltip-text {
+    display: block;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .tooltip .tooltip-text::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
   }
 
   .projects__title {
@@ -799,6 +859,10 @@ span.contact__illustration__title--sky-blue {
 
   .footer__links li a {
     font-size: 28px;
+  }
+
+  .footer__links li a:hover {
+    color: var(--sky-blue);
   }
 
   .footer__subtitle {
