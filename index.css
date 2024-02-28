@@ -382,12 +382,21 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   font-weight: bold;
 }
 
+.about__detail__subtitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .about__detail__stacks {
   display: flex;
-  list-style: none;
-  padding: 0;
   gap: 8px;
-  font-size: 32px;
+  flex-wrap: wrap;
+}
+
+.about__detail__stacks__icon {
+  padding: 8px;
+  background-color: var(--navy);
+  border-radius: 5px;
 }
 
 /* PROJECTS */
@@ -693,11 +702,19 @@ span.contact__illustration__title--sky-blue {
     font-size: 18px;
   }
 
+  .about__detail__info span a {
+    color: var(--sky-blue);
+  }
+
   .about__detail__title {
     font-size: 30px;
   }
 
-  .about__detail__stacks {
+  .about__detail__subtitle {
+    font-size: 24px;
+  }
+
+  .about__detail__stacks-two {
     gap: 10px;
     font-size: 40px;
   }
