@@ -33,7 +33,7 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 
 #### Home
 
-![desktop-home](./previews/desktop-home.jpg)
+![desktop-home](./previews/desktop.jpg)
 
 #### Contact
 
