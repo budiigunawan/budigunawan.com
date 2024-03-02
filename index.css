@@ -344,6 +344,11 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   color: var(--sky-blue);
 }
 
+.hero__illustration {
+  display: flex;
+  justify-content: center;
+}
+
 .hero__illustration img {
   height: auto;
 }
