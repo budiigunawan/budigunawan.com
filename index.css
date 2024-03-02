@@ -387,7 +387,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   font-weight: bold;
 }
 
-.about__detail__info span a {
+.about__detail__info--sky-blue {
   color: var(--sky-blue);
 }
 
