@@ -387,6 +387,10 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   font-weight: bold;
 }
 
+.about__detail__info span a {
+  color: var(--sky-blue);
+}
+
 .about__detail__stacks {
   display: flex;
   gap: 8px;
@@ -704,10 +708,6 @@ span.contact__illustration__title--sky-blue {
 
   .about__detail__info {
     font-size: 18px;
-  }
-
-  .about__detail__info span a {
-    color: var(--sky-blue);
   }
 
   .about__detail__title {
