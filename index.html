@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Budi Gunawan's personal website. A place to show my profile, projects, and my experience in web development journey."
+      content="Budi Indra Gunawan's personal website. A place to show my profile, projects, and my experience in web development journey."
     />
-    <title>Budi Gunawan</title>
+    <title>Budi Indra Gunawan</title>
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,6 +38,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="/#blog">Blog</a></li>
             <li><a href="/contact/">Contact</a></li>
           </ul>
           <button class="navigation__bars-button">
@@ -53,6 +54,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="/#blog">Blog</a></li>
             <li><a href="/contact/">Contact</a></li>
           </ul>
         </div>
@@ -69,14 +71,14 @@
               My name is Budi Gunawan
             </h1>
             <p class="hero__info__sub-title poppins-regular">
-              I am web developer and currently work as personal contributor at
-              Paragon Corp, Indonesia's leading cosmetic manufacturer. In this
-              role, I contribute to develop frontend side of order management
-              system web application using React ecosystem.
+              I am web developer with three years of experience. Currently work
+              as personal contributor at Paragon Corp, the biggest cosmetic
+              manufacturer in Indonesia, where I help to develop frontend side
+              of web application using React ecosystem.
             </p>
-            <a href="#about" class="hero__info__button plus-jakarta"
-              >About me</a
-            >
+            <a href="#about" class="hero__info__button plus-jakarta">
+              About me
+            </a>
             <ul class="hero__info__links poppins-medium">
               <li>
                 <a
@@ -110,7 +112,7 @@
               </li>
             </ul>
           </div>
-          <div class="hero__illustration">
+          <aside class="hero__illustration">
             <picture>
               <source srcset="./images/hero.jpg" media="(max-width: 425px)" />
               <source srcset="./images/bighero.jpg" />
@@ -119,7 +121,7 @@
                 alt="I am wearing blue shirt and smiling to you"
               />
             </picture>
-          </div>
+          </aside>
         </div>
       </section>
 
@@ -133,29 +135,28 @@
               share knowledge
             </h2>
           </div>
-          <div class="about__detail">
+          <article class="about__detail">
             <h3 class="about__detail__title plus-jakarta">About me</h3>
             <p class="about__detail__info poppins-regular">
-              Hello world! You can call me Budi. I graduated from Universitas
-              Gadjah Mada with bachelor of network engineering in 2019. During
-              Covid-19 pandemic, I decided to learn web development from the
-              Internet and join Fullstack JavaScript Bootcamp at Hacktiv8.
+              In 2019, I graduated from Universitas Gadjah Mada with a
+              bachelor's degree of network engineering. During Covid-19
+              pandemic, I decided to
+              <span class="about__detail__info--sky-blue"
+                >learning web development</span
+              >
+              from the Internet and join Fullstack JavaScript Bootcamp at
+              Hacktiv8.
             </p>
             <p class="about__detail__info poppins-regular">
               I really enjoy learning about making websites, especially the
-              frontend part. It's like being the architect and artist of the
-              online world, ensuring that websites not only function well but
-              also leave a lasting impression on visitors. I also like to craft
-              <span>
-                <a
-                  href="https://www.linkedin.com/in/buigun/recent-activity/all/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Linkedin articles</a
-                >
+              <span class="about__detail__info--sky-blue">frontend part. </span>
+              It's like being the architect and artist of the online world,
+              ensuring that websites not only function well but also leave a
+              lasting impression on visitors. I also like to
+              <span class="about__detail__info--sky-blue">
+                write Linkedin post
               </span>
-              where I share insight on web development and personal improvement
-              books.
+              about web development and self-help book summary.
             </p>
             <h3 class="about__detail__sub-title plus-jakarta">Tech stacks</h3>
             <div class="about__detail__stacks">
@@ -223,214 +224,376 @@
                 <span class="tooltip-text poppins-regular"> Tailwind CSS </span>
               </div>
             </div>
-          </div>
+          </article>
         </div>
       </section>
 
       <!-- PROJECTS -->
       <section id="projects" class="projects">
         <div class="layout projects__container">
-          <h3 class="projects__title plus-jakarta">Projects</h3>
+          <h3 class="projects__title plus-jakarta">Featured Projects</h3>
           <div class="projects__cards-container">
             <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Magpie</h4>
-              <p class="projects__card__role poppins-regular">
-                Role: Frontend Developer
-              </p>
-              <p class="projects__card__subtitle poppins-regular">
-                Order management system that automates tracking the number of
-                orders and stock in various popular e-commerces in Indonesia.
-              </p>
-              <div class="projects__card__stacks">
+              <div class="projects__card__header">
                 <img
                   loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
-                  alt="JavaScript"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
-                  alt="React"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
-                  alt="chakra-ui"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-Cypress-526d82?style=flat&amp;logo=cypress"
-                  alt="cypress"
+                  class="projects__card__image"
+                  src="./images/project-magpie.png"
+                  alt="Project name's screenshoot"
                 />
               </div>
-              <img
-                loading="lazy"
-                class="projects__card__image"
-                src="./images/project-magpie.png"
-                alt="Project name's screenshoot"
-              />
+              <div class="projects__card__body">
+                <h4 class="projects__card__title plus-jakarta">Magpie</h4>
+                <p class="projects__card__role poppins-regular">
+                  Role: Frontend Developer
+                </p>
+                <div class="projects__card__stacks">
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                    alt="JavaScript"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                    alt="React"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
+                    alt="chakra-ui"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Cypress-526d82?style=flat&amp;logo=cypress"
+                    alt="cypress"
+                  />
+                </div>
+                <p class="projects__card__subtitle poppins-regular">
+                  OMS web app that automates tracking the number of orders and
+                  stocks in various e-commerces.
+                </p>
+              </div>
+            </div>
+
+            <!-- <div class="projects__card">
+              <div class="projects__card__header">
+                <img
+                  class="projects__card__image"
+                  src="./images/project-sentichat.png"
+                  alt="Project name's screenshoot"
+                />
+              </div>
+              <div class="projects__card__body">
+                <h4 class="projects__card__title plus-jakarta">Sentichat</h4>
+                <p class="projects__card__role poppins-regular">
+                  Role: Frontend Developer
+                </p>
+                <div class="projects__card__stacks">
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-TypeScript-526d82?style=flat&amp;logo=typescript"
+                    alt="TypeScript"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                    alt="React"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Sass-526d82?style=flat&amp;logo=sass"
+                    alt="Sass"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Lit-526d82?style=flat&amp;logo=lit"
+                    alt="lit"
+                  />
+                </div>
+                <p class="projects__card__subtitle poppins-regular">
+                  Chat widget with Seamless AI Integration. Optimise your search
+                  and empower your knowledgebase.
+                </p>
+              </div>
+            </div> -->
+
+            <div class="projects__card">
+              <div class="projects__card__header">
+                <img
+                  class="projects__card__image"
+                  src="./images/project-performa.jpg"
+                  alt="Project name's screenshoot"
+                />
+              </div>
+              <div class="projects__card__body">
+                <h4 class="projects__card__title plus-jakarta">Performa</h4>
+                <p class="projects__card__role poppins-regular">
+                  Role: Frontend Developer
+                </p>
+                <div class="projects__card__stacks">
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                    alt="JavaScript"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Vue-526d82?style=flat&amp;logo=vue.js"
+                    alt="Vue"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Sass-526d82?style=flat&amp;logo=sass"
+                    alt="Sass"
+                  />
+                </div>
+                <p class="projects__card__subtitle poppins-regular">
+                  An employee performance management system that manages OKR and
+                  performance review.
+                </p>
+              </div>
             </div>
 
             <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Sentichat</h4>
-              <p class="projects__card__role poppins-regular">
-                Role: Frontend Developer
-              </p>
-              <p class="projects__card__subtitle poppins-regular">
-                Chat widget with Seamless AI Integration. Optimise your search
-                and empower your knowledgebase.
-              </p>
-              <div class="projects__card__stacks">
+              <div class="projects__card__header">
                 <img
                   loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-TypeScript-526d82?style=flat&amp;logo=typescript"
-                  alt="TypeScript"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
-                  alt="React"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-Sass-526d82?style=flat&amp;logo=sass"
-                  alt="Sass"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-Lit-526d82?style=flat&amp;logo=lit"
-                  alt="lit"
+                  class="projects__card__image"
+                  src="./images/project-omg.png"
+                  alt="Project name's screenshoot"
                 />
               </div>
-              <img
-                class="projects__card__image"
-                src="./images/project-sentichat.png"
-                alt="Project name's screenshoot"
-              />
+              <div class="projects__card__body">
+                <h4 class="projects__card__title plus-jakarta">
+                  OMG Oh My Glam
+                </h4>
+                <p class="projects__card__role poppins-regular">
+                  Role: Frontend Developer
+                </p>
+                <div class="projects__card__stacks">
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                    alt="JavaScript"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                    alt="React"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Gatsby-526d82?style=flat&amp;logo=gatsby"
+                    alt="Gatsby"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
+                    alt="chakra-ui"
+                  />
+                </div>
+                <p class="projects__card__subtitle poppins-regular">
+                  Landing page for OMG Oh My Glam. Indonesian local brand that
+                  provides make up and skincare.
+                </p>
+              </div>
             </div>
 
-            <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Performa</h4>
-              <p class="projects__card__role poppins-regular">
-                Role: Frontend Developer
-              </p>
-              <p class="projects__card__subtitle poppins-regular">
-                An employee performance management system that manages OKR and
-                performance review.
-              </p>
-              <div class="projects__card__stacks">
+            <!-- <div class="projects__card">
+              <div class="projects__card__header">
                 <img
                   loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
-                  alt="JavaScript"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-Vue-526d82?style=flat&amp;logo=vue.js"
-                  alt="Vue"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-Sass-526d82?style=flat&amp;logo=sass"
-                  alt="Sass"
+                  class="projects__card__image"
+                  src="./images/project-lifeline.png"
+                  alt="Project name's screenshoot"
                 />
               </div>
-              <img
-                class="projects__card__image"
-                src="./images/project-performa.jpg"
-                alt="Project name's screenshoot"
-              />
-            </div>
+              <div class="projects__card__body">
+                <h4 class="projects__card__title plus-jakarta">Lifeline</h4>
+                <p class="projects__card__role poppins-regular">
+                  Role: Frontend Developer
+                </p>
+                <div class="projects__card__stacks">
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
+                    alt="JavaScript"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
+                    alt="React"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
+                    alt="chakra-ui"
+                  />
+                </div>
+                <p class="projects__card__subtitle poppins-regular">
+                  Plasma convalescent donors platform that got runner up
+                  position in IT Paragon Hackathon.
+                </p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
 
-            <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">OMG Oh My Glam</h4>
-              <p class="projects__card__role poppins-regular">
-                Role: Frontend Developer
-              </p>
-              <p class="projects__card__subtitle poppins-regular">
-                Landing page for OMG Oh My Glam. Indonesian local brand that
-                provides make up and skincare.
-              </p>
-              <div class="projects__card__stacks">
+      <!-- BLOG -->
+      <section id="blog" class="blog">
+        <div class="layout blog__container">
+          <h3 class="blog__title plus-jakarta">Featured Posts</h3>
+          <div class="blog__cards-container">
+            <div class="blog__card">
+              <div class="blog__card__header">
                 <img
                   loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
-                  alt="JavaScript"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
-                  alt="React"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-Gatsby-526d82?style=flat&amp;logo=gatsby"
-                  alt="Gatsby"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
-                  alt="chakra-ui"
+                  class="blog__card__image"
+                  src="https://picsum.photos/id/352/346/195"
+                  alt="Project name's screenshoot"
                 />
               </div>
-              <img
-                loading="lazy"
-                class="projects__card__image"
-                src="./images/project-omg.png"
-                alt="Project name's screenshoot"
-              />
+              <div class="blog__card__body">
+                <h4 class="blog__card__title plus-jakarta">
+                  How does the web works?
+                </h4>
+                <div class="blog__card__tags">
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Web_Dev-526d82?style=flat&amp;"
+                    alt="Web Dev"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Internet-526d82?style=flat&amp;"
+                    alt="Internet"
+                  />
+                </div>
+                <p class="blog__card__subtitle poppins-regular">
+                  Have you ever wondered what occurs in the background when you
+                  view this article in a web browser on your computer or phone?
+                  🌏 📱 💻
+                </p>
+              </div>
+              <div class="blog__card__footer">
+                <a
+                  class="blog__card__read-more poppins-regular"
+                  href="https://www.linkedin.com/posts/buigun_how-the-web-works-activity-7149973000958717952-kVPF?utm_source=share&utm_medium=member_desktop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read more <span><i class="fas fa-arrow-right"></i></span>
+                </a>
+              </div>
             </div>
-
-            <div class="projects__card">
-              <h4 class="projects__card__title plus-jakarta">Lifeline</h4>
-              <p class="projects__card__role poppins-regular">
-                Role: Frontend Developer
-              </p>
-              <p class="projects__card__subtitle poppins-regular">
-                Plasma convalescent donors platform. This web app is securing
-                runner up position in the Paragon Hackathon.
-              </p>
-              <div class="projects__card__stacks">
+            <div class="blog__card">
+              <div class="blog__card__header">
                 <img
                   loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-JavaScript-526d82?style=flat&amp;logo=javascript"
-                  alt="JavaScript"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-React-526d82?style=flat&amp;logo=react"
-                  alt="React"
-                />
-                <img
-                  loading="lazy"
-                  height="20px"
-                  src="https://img.shields.io/badge/-ChakraUI-526d82?style=flat&amp;logo=chakra-ui"
-                  alt="chakra-ui"
+                  class="blog__card__image"
+                  src="https://picsum.photos/id/129/346/195"
+                  alt="Project name's screenshoot"
                 />
               </div>
-              <img
-                loading="lazy"
-                class="projects__card__image"
-                src="./images/project-lifeline.png"
-                alt="Project name's screenshoot"
-              />
+              <div class="blog__card__body">
+                <h4 class="blog__card__title plus-jakarta">
+                  3 Teknik Menangani Orang
+                </h4>
+                <div class="blog__card__tags">
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Self_Help-526d82?style=flat&amp;"
+                    alt="Self Help"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Book_Summary-526d82?style=flat&amp;"
+                    alt="Book Summary"
+                  />
+                </div>
+                <p class="blog__card__subtitle poppins-regular">
+                  “Anak IT lebih suka berinteraksi dengan komputer daripada
+                  orang.” Apakah kamu setuju dengan pernyataan tersebut?
+                </p>
+              </div>
+              <div class="blog__card__footer">
+                <a
+                  class="blog__card__read-more poppins-regular"
+                  href="https://www.linkedin.com/posts/buigun_3-teknik-dasar-berinteraksi-dan-menangani-activity-7143808149576167424-5z5A?utm_source=share&utm_medium=member_desktop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read more <span><i class="fas fa-arrow-right"></i></span>
+                </a>
+              </div>
+            </div>
+            <div class="blog__card">
+              <div class="blog__card__header">
+                <img
+                  loading="lazy"
+                  class="blog__card__image"
+                  src="https://picsum.photos/id/252/346/195"
+                  alt="Project name's screenshoot"
+                />
+              </div>
+              <div class="blog__card__body">
+                <h4 class="blog__card__title plus-jakarta">
+                  Problem Solving 101
+                </h4>
+                <div class="blog__card__tags">
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Self_Help-526d82?style=flat&amp;"
+                    alt="Self Help"
+                  />
+                  <img
+                    loading="lazy"
+                    height="20px"
+                    src="https://img.shields.io/badge/-Book_Summary-526d82?style=flat&amp;"
+                    alt="Self Help"
+                  />
+                </div>
+                <p class="blog__card__subtitle poppins-regular">
+                  Adakah orang yang hidupnya bebas dari masalah? 🤔 Dari buku
+                  "Problem Solving 101" saya belajar apa itu problem solving dan
+                  langkahnya.
+                </p>
+              </div>
+              <div class="blog__card__footer">
+                <a
+                  class="blog__card__read-more poppins-regular"
+                  href="https://www.linkedin.com/posts/buigun_problem-solving-101-activity-7141250783672475649-9J90?utm_source=share&utm_medium=member_desktop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read more <span><i class="fas fa-arrow-right"></i></span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -439,7 +602,7 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="layout footer__container footer__container--top-line">
+      <div class="layout footer__container">
         <p class="footer__title plus-jakarta">Reach me out</p>
         <ul class="footer__links">
           <li>

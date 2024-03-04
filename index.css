@@ -253,7 +253,7 @@ header {
 header:has(.navigation__bars-button input[type='checkbox']:checked)
   .m-navigation__links {
   margin-top: 8px;
-  height: 140px;
+  height: 180px;
 }
 
 /* Hiding the bars icon on checkbox checked state */
@@ -344,8 +344,14 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   color: var(--sky-blue);
 }
 
+.hero__illustration {
+  display: flex;
+  justify-content: center;
+}
+
 .hero__illustration img {
   height: auto;
+  border-radius: 6px;
 }
 
 /* ABOUT */
@@ -385,6 +391,10 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 .about__detail__subtitle {
   font-size: 18px;
   font-weight: bold;
+}
+
+.about__detail__info--sky-blue {
+  color: var(--sky-blue);
 }
 
 .about__detail__stacks {
@@ -430,16 +440,16 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 .projects__card {
   width: 100%;
   border: 1px solid var(--light-grey);
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
   border-radius: 5px;
   transition: transform 0.5s ease;
 }
 
 .projects__card:hover {
   transform: scale(1.025);
+}
+
+.projects__card__body {
+  padding: 16px;
 }
 
 .projects__card__title {
@@ -449,31 +459,107 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 .projects__card__role,
 .projects__card__subtitle {
   font-size: 14px;
+  margin-top: 8px;
 }
 
 .projects__card__stacks {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 4px;
+  margin-top: 8px;
+  min-height: 44px;
 }
 
 .projects__card__image {
   width: 100%;
   aspect-ratio: 16 / 9;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
 }
 
-.projects__card__see-more {
+/* BLOG */
+
+.blog {
+  background-color: var(--dark-navy);
+  padding: 80px 0;
+  color: var(--smoke-white);
+}
+
+.blog__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.blog__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.blog__cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 16px;
+}
+
+.blog__card {
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+}
+
+.blog__card:hover {
+  transform: scale(1.025);
+}
+
+.blog__card__body {
+  padding: 16px;
+  /* height: 220px; */
+}
+
+.blog__card__image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+.blog__card__title {
+  font-weight: bold;
+}
+
+.blog__card__role,
+.blog__card__subtitle {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.blog__card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.blog__card__footer {
+  padding: 16px;
+  padding-top: 0;
+}
+
+.blog__card__read-more {
+  margin-top: 8px;
   text-decoration: none;
   color: var(--smoke-white);
   font-size: 14px;
 }
 
-.projects__card__see-more:hover {
+.blog__card__read-more:hover {
   color: var(--sky-blue);
 }
 
-.projects__card__see-more i {
+.blog__card__read-more i {
   vertical-align: middle;
 }
 
@@ -586,11 +672,6 @@ span.contact__illustration__title--sky-blue {
   color: var(--smoke-white);
 }
 
-.footer__container--top-line {
-  border-top: 1px solid var(--light-grey);
-  padding-top: 16px;
-}
-
 .footer__title {
   font-size: 14px;
   padding-bottom: 4px;
@@ -631,6 +712,7 @@ span.contact__illustration__title--sky-blue {
 
   .navigation__links {
     display: flex;
+    padding: 0;
   }
 
   /* HERO */
@@ -706,10 +788,6 @@ span.contact__illustration__title--sky-blue {
     font-size: 18px;
   }
 
-  .about__detail__info span a {
-    color: var(--sky-blue);
-  }
-
   .about__detail__title {
     font-size: 30px;
   }
@@ -767,8 +845,7 @@ span.contact__illustration__title--sky-blue {
   }
 
   .projects__cards-container {
-    gap: 40px;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .projects__card {
@@ -788,7 +865,27 @@ span.contact__illustration__title--sky-blue {
     min-height: 96px;
   }
 
-  .projects__card__see-more {
+  /* BLOG */
+
+  .blog__title {
+    font-size: 30px;
+  }
+
+  .blog__cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  .blog__card__title {
+    font-size: 18px;
+  }
+
+  .blog__card__role,
+  .blog__card__subtitle {
+    font-size: 16px;
+  }
+
+  .blog__card__read-more {
     font-size: 16px;
   }
 
@@ -846,10 +943,6 @@ span.contact__illustration__title--sky-blue {
   /* FOOTER */
   .footer {
     padding: 24px;
-  }
-
-  .footer__container--top-line {
-    padding-top: 24px;
   }
 
   .footer__title {
