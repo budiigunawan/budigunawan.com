@@ -427,6 +427,10 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   color: var(--smoke-white);
 }
 
+.projects-page {
+  background-color: var(--dark-navy);
+}
+
 .projects__container {
   display: flex;
   flex-direction: column;
@@ -436,6 +440,11 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 .projects__title {
   font-size: 24px;
   font-weight: bold;
+}
+
+.projects__sub-title {
+  margin-top: 8px;
+  font-size: 14px;
 }
 
 .projects__cards-container {
@@ -457,6 +466,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 
 .projects__card__body {
   padding: 16px;
+  background-color: var(--navy);
 }
 
 .projects__card__title {
@@ -847,8 +857,16 @@ span.contact__illustration__title--sky-blue {
     visibility: visible;
   }
 
+  .projects-page {
+    padding-top: 120px;
+  }
+
   .projects__title {
     font-size: 30px;
+  }
+
+  .projects__sub-title {
+    font-size: 16px;
   }
 
   .projects__cards-container {
