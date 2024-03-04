@@ -467,6 +467,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 .projects__card__body {
   padding: 16px;
   background-color: var(--navy);
+  border-radius: 5px;
 }
 
 .projects__card__title {
