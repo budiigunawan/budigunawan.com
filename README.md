@@ -33,18 +33,18 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 
 #### Home
 
-![desktop-home](./previews/desktop.jpg)
+![desktop-home](./images/previews/desktop.jpg)
 
 #### Contact
 
-![desktop-contact](./previews/desktop-contact.jpg)
+![desktop-contact](./images/previews/desktop-contact.jpg)
 
 ### Mobile
 
 #### Home
 
-![mobile-home](./previews/phone-home.jpg)
+![mobile-home](./images/previews/phone-home.jpg)
 
 #### Contact
 
-![mobile-contact](./previews/phone-contact.jpg)
+![mobile-contact](./images/previews/phone-contact.jpg)
