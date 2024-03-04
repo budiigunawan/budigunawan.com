@@ -310,7 +310,8 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   color: var(--smoke-white);
 }
 
-.hero__info__button {
+.hero__info__button,
+.primary-button {
   padding: 10px 0;
   height: 48px;
   background-color: var(--smoke-white);
@@ -322,9 +323,15 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   text-decoration: none;
 }
 
-.hero__info__button:hover {
+.hero__info__button:hover,
+.primary-button:hover {
   background-color: var(--light-grey);
   border: 1px solid var(--light-grey);
+}
+
+.primary-button {
+  padding: 10px;
+  max-width: 180px;
 }
 
 .hero__info__links {
