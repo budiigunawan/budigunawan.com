@@ -31,7 +31,7 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 
 ## Links
 
-- Live Preview: [budigunawan.com](https://budigunawan-com-v1.vercel.app/)
+- Live Preview: [budigunawan.com](https://www.budigunawan.com/)
 - Figma: <https://www.figma.com/file/RnMTmQul8AerqRZ1DMrui9/budigunawan.com?type=design&node-id=0%3A1&mode=design&t=P9OOm2BQvnK5D4tE-1>
 - Github: <https://github.com/budiigunawan/budigunawan.com>
 
