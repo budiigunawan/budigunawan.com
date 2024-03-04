@@ -858,7 +858,8 @@ span.contact__illustration__title--sky-blue {
     visibility: visible;
   }
 
-  .projects-page {
+  .projects-page,
+  .blog-page {
     padding-top: 120px;
   }
 
