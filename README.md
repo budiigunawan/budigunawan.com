@@ -2,13 +2,28 @@
 
 Hello world! 👋 This is my personal website. A place to show my profile, photo, projects, and experience in web development journey.
 
+## Table of Contents
+
+- [Pages](#pages)
+- [Links](#links)
+- [Previews](#previews)
+
 ## Pages
 
 ### HOME
 
 1. 🏠 Hero: Introduction about me.
 2. 🔎 About: Brief bio and my personal story.
-3. 🚧 Projects: Showcase the work I've done.
+3. 🚧 Featured Projects: Showcase featured projects I've done.
+4. 📖 Featured Posts: Showcase featured posts I've done.
+
+### PROJECTS
+
+1. 🚧 Projects: Showcase of my works on web development
+
+### Blog
+
+1. 📖 Blog: Thoughts, web development tips, and self-help book summaries
 
 ### Contact
 
@@ -16,7 +31,7 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 
 ## Links
 
-- Live Preview: [budigunawan.com](https://budigunawan-com-v1.vercel.app/)
+- Live Preview: [budigunawan.com](https://www.budigunawan.com/)
 - Figma: <https://www.figma.com/file/RnMTmQul8AerqRZ1DMrui9/budigunawan.com?type=design&node-id=0%3A1&mode=design&t=P9OOm2BQvnK5D4tE-1>
 - Github: <https://github.com/budiigunawan/budigunawan.com>
 
@@ -33,18 +48,18 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 
 #### Home
 
-![desktop-home](./previews/desktop.jpg)
+![desktop-home](./images/previews/desktop.jpg)
 
 #### Contact
 
-![desktop-contact](./previews/desktop-contact.jpg)
+![desktop-contact](./images/previews/desktop-contact.jpg)
 
 ### Mobile
 
 #### Home
 
-![mobile-home](./previews/phone-home.jpg)
+![mobile-home](./images/previews/phone-home.jpg)
 
 #### Contact
 
-![mobile-contact](./previews/phone-contact.jpg)
+![mobile-contact](./images/previews/phone-contact.jpg)
