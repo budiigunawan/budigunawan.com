@@ -120,34 +120,6 @@ h6 {
   letter-spacing: 0.3px;
 }
 
-.poppins-semibold {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  letter-spacing: 0.3px;
-}
-
-.poppins-bold {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: 0.3px;
-}
-
-.poppins-extrabold {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  letter-spacing: 0.3px;
-}
-
-.poppins-black {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  letter-spacing: 0.3px;
-}
-
 /* plus jakarta sans */
 
 .plus-jakarta {
@@ -294,7 +266,6 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   color: var(--smoke-white);
   width: 140px;
   font-size: 24px;
-  transform: rotate(-15deg);
   margin-bottom: 10px;
 }
 
