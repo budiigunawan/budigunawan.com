@@ -48,18 +48,18 @@ Contact: Contact form for visitors to reach me out.
 
 #### Home
 
-![desktop-home](./images/previews/desktop.jpg)
+![desktop-home](/images/previews/desktop.jpg)
 
 #### Contact
 
-![desktop-contact](./images/previews/desktop-contact.jpg)
+![desktop-contact](/images/previews/desktop-contact.jpg)
 
 ### Mobile
 
 #### Home
 
-![mobile-home](./images/previews/phone-home.jpg)
+![mobile-home](/images/previews/phone-home.jpg)
 
 #### Contact
 
-![mobile-contact](./images/previews/phone-contact.jpg)
+![mobile-contact](/images/previews/phone-contact.jpg)
