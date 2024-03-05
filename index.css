@@ -516,6 +516,12 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 
 .blog__card__title {
   font-weight: bold;
+  color: var(--smoke-white);
+  text-decoration: none;
+}
+
+.blog__card__title:hover {
+  color: var(--sky-blue);
 }
 
 .blog__card__role,
