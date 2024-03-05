@@ -120,34 +120,6 @@ h6 {
   letter-spacing: 0.3px;
 }
 
-.poppins-semibold {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  letter-spacing: 0.3px;
-}
-
-.poppins-bold {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: 0.3px;
-}
-
-.poppins-extrabold {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  letter-spacing: 0.3px;
-}
-
-.poppins-black {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-style: normal;
-  letter-spacing: 0.3px;
-}
-
 /* plus jakarta sans */
 
 .plus-jakarta {
@@ -294,7 +266,6 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   color: var(--smoke-white);
   width: 140px;
   font-size: 24px;
-  transform: rotate(-15deg);
   margin-bottom: 10px;
 }
 
@@ -545,6 +516,12 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 
 .blog__card__title {
   font-weight: bold;
+  color: var(--smoke-white);
+  text-decoration: none;
+}
+
+.blog__card__title:hover {
+  color: var(--sky-blue);
 }
 
 .blog__card__role,
@@ -735,8 +712,7 @@ span.contact__illustration__title--sky-blue {
 
   /* HERO */
   .hero {
-    height: 100vh;
-    padding-top: 80px;
+    padding: 120px 0;
   }
 
   .hero__container {
@@ -994,6 +970,9 @@ span.contact__illustration__title--sky-blue {
 /* ============================================================================= */
 /* FOR LARGE DESKTOP */
 @media (min-width: 1440px) {
+  .hero {
+    padding: 196px 0;
+  }
   /* ABOUT */
   .about__main__title {
     font-size: 80px;
