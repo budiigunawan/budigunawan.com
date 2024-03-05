@@ -10,24 +10,24 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 
 ## Pages
 
-### HOME
+### HOME 🏠
 
-1. 🏠 Hero: Introduction about me.
-2. 🔎 About: Brief bio and my personal story.
-3. 🚧 Featured Projects: Showcase featured projects I've done.
-4. 📖 Featured Posts: Showcase featured posts I've done.
+- Hero: Introduction about me.
+- About: Brief bio and my personal story.
+- Featured Projects: Showcase featured projects I've done.
+- Featured Posts: Showcase featured posts I've done.
 
-### PROJECTS
+### PROJECTS 🚧
 
-1. 🚧 Projects: Showcase of my works on web development
+Projects: Showcase of my works on web development
 
-### Blog
+### Blog 📖
 
-1. 📖 Blog: Thoughts, web development tips, and self-help book summaries
+Blog: Thoughts, web development tips, and self-help book summaries
 
-### Contact
+### Contact 📬
 
-1. 📬 Contact: Contact form for visitors to reach me out.
+Contact: Contact form for visitors to reach me out.
 
 ## Links
 
@@ -38,7 +38,7 @@ Hello world! 👋 This is my personal website. A place to show my profile, photo
 ### Social media:
 
 - Linkedin: [linkedin.com/in/buigun](https://linkedin.com/in/buigun)
-- Twitter/X : [twitter.com/buigun](https://twitter.com/buigun)
+- Twitter/X: [twitter.com/buigun](https://twitter.com/buigun)
 - Instagram: [instagram.com/buigun](https://instagram.com/buigun)
 - CV/Resume: [cv.budigunawan.com](https://drive.google.com/file/d/1vwh0zGvqo1MZ3ejR88LS1R3Xfv9VCLdZ/view?usp=drive_link)
 
