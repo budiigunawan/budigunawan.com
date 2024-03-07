@@ -190,7 +190,8 @@ header {
 }
 
 .navigation__links a:hover,
-.navigation__links a.link--active {
+.navigation__links a.link--active,
+.m-navigation__links a.link--active {
   color: var(--sky-blue);
 }
 
@@ -226,7 +227,7 @@ header {
 header:has(.navigation__bars-button input[type='checkbox']:checked)
   .m-navigation__links {
   margin-top: 8px;
-  height: 180px;
+  height: 152px;
 }
 
 /* Hiding the bars icon on checkbox checked state */
