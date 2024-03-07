@@ -22,10 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/1d3eb649b6.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- HEADER -->
@@ -42,7 +39,7 @@
           </a>
           <ul class="poppins-medium navigation__links">
             <li><a href="/">Home</a></li>
-            <li><a href="/projects">Projects</a></li>
+            <li><a href="/projects" class="link--active">Projects</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/contact/">Contact</a></li>
           </ul>
@@ -57,7 +54,7 @@
         <div class="m-navigation">
           <ul class="poppins-medium m-navigation__links">
             <li><a href="/">Home</a></li>
-            <li><a href="/projects">Projects</a></li>
+            <li><a href="/projects" class="link--active">Projects</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/contact/">Contact</a></li>
           </ul>
@@ -68,7 +65,7 @@
     <!-- MAIN -->
     <main>
       <section id="projects" class="projects projects-page">
-        <div class="layout projects__container">
+        <div class="layout projects__container" data-aos="fade-up">
           <div class="projects__header">
             <h3 class="projects__title plus-jakarta">Projects</h3>
             <p class="projects__sub-title poppins-regular">
@@ -372,18 +369,20 @@
               <i class="fa fa-github" title="github"></i>
             </a>
           </li>
-          <li>
-            <a
-              href="https://medium.com/@buigun"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-medium" title="medium"></i>
-            </a>
-          </li>
         </ul>
         <p class="footer__subtitle plus-jakarta">© Budi Gunawan 2024</p>
       </div>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/1d3eb649b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 800,
+      });
+    </script>
   </body>
 </html>

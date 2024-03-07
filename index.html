@@ -22,10 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/1d3eb649b6.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- HEADER -->
@@ -42,7 +39,7 @@
             <p class="poppins-medium">Budi Gunawan</p>
           </a>
           <ul class="poppins-medium navigation__links">
-            <li><a href="/">Home</a></li>
+            <li><a href="/" class="link--active">Home</a></li>
             <li><a href="/projects">Projects</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/contact/">Contact</a></li>
@@ -57,7 +54,7 @@
         </div>
         <div class="m-navigation">
           <ul class="poppins-medium m-navigation__links">
-            <li><a href="/">Home</a></li>
+            <li><a href="/" class="link--active">Home</a></li>
             <li><a href="/projects">Projects</a></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/contact/">Contact</a></li>
@@ -87,7 +84,7 @@
             <ul class="hero__info__links poppins-medium">
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1vwh0zGvqo1MZ3ejR88LS1R3Xfv9VCLdZ/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1Jlz_uiaoz-8wHNdtHVadn_GK__HYDTIk/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -134,7 +131,7 @@
 
       <!-- ABOUT -->
       <section id="about" class="about">
-        <div class="layout about__container">
+        <div class="layout about__container" data-aos="fade-up">
           <div class="about__main">
             <h2 class="about__main__title plus-jakarta">
               I love to explore new things,
@@ -237,7 +234,7 @@
 
       <!-- PROJECTS -->
       <section id="projects" class="projects">
-        <div class="layout projects__container">
+        <div class="layout projects__container" data-aos="fade-up">
           <h3 class="projects__title plus-jakarta">Featured Projects</h3>
           <div class="projects__cards-container">
             <div class="projects__card">
@@ -401,7 +398,7 @@
 
       <!-- BLOG -->
       <section id="blog" class="blog">
-        <div class="layout blog__container">
+        <div class="layout blog__container" data-aos="fade-up">
           <h3 class="blog__title plus-jakarta">Featured Posts</h3>
           <div class="blog__cards-container">
             <div class="blog__card">
@@ -600,18 +597,20 @@
               <i class="fa fa-github" title="github"></i>
             </a>
           </li>
-          <li>
-            <a
-              href="https://medium.com/@buigun"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-medium" title="medium"></i>
-            </a>
-          </li>
         </ul>
         <p class="footer__subtitle plus-jakarta">© Budi Gunawan 2024</p>
       </div>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/1d3eb649b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 800,
+      });
+    </script>
   </body>
 </html>
