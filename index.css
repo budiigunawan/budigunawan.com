@@ -547,17 +547,8 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 
 .blog__card__read-more {
   margin-top: 8px;
-  text-decoration: none;
-  color: var(--smoke-white);
-  font-size: 14px;
-}
-
-.blog__card__read-more:hover {
   color: var(--sky-blue);
-}
-
-.blog__card__read-more i {
-  vertical-align: middle;
+  font-size: 14px;
 }
 
 /* CONTACT */
