@@ -638,7 +638,7 @@ span.contact__illustration__title--sky-blue {
 }
 
 .contact__contact-me__form__button {
-  padding: 20px;
+  padding: 10px;
   color: var(--smoke-white);
   background-color: var(--navy);
   border: 1px solid var(--navy);
@@ -928,7 +928,7 @@ span.contact__illustration__title--sky-blue {
 
   .contact__contact-me__form__group input,
   .contact__contact-me__form__group textarea {
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
   }
 
