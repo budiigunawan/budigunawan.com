@@ -189,7 +189,9 @@ header {
   color: var(--smoke-white);
 }
 
-.navigation__links a:hover {
+.navigation__links a:hover,
+.navigation__links a.link--active,
+.m-navigation__links a.link--active {
   color: var(--sky-blue);
 }
 
@@ -225,7 +227,7 @@ header {
 header:has(.navigation__bars-button input[type='checkbox']:checked)
   .m-navigation__links {
   margin-top: 8px;
-  height: 180px;
+  height: 152px;
 }
 
 /* Hiding the bars icon on checkbox checked state */
@@ -545,17 +547,8 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
 
 .blog__card__read-more {
   margin-top: 8px;
-  text-decoration: none;
-  color: var(--smoke-white);
-  font-size: 14px;
-}
-
-.blog__card__read-more:hover {
   color: var(--sky-blue);
-}
-
-.blog__card__read-more i {
-  vertical-align: middle;
+  font-size: 14px;
 }
 
 /* CONTACT */
@@ -645,13 +638,25 @@ span.contact__illustration__title--sky-blue {
 }
 
 .contact__contact-me__form__button {
-  padding: 20px;
+  padding: 10px;
   color: var(--smoke-white);
   background-color: var(--navy);
   border: 1px solid var(--navy);
   border-radius: 5px;
   font-size: 16px;
   font-weight: 600;
+}
+
+.contact__contact-me__form__button:hover {
+  background-color: var(--dark-navy);
+  border: 1px solid var(--dark-navy);
+}
+
+button:disabled,
+button:hover:disabled,
+button[disabled] {
+  border: 1px solid var(--grey);
+  background-color: var(--grey);
 }
 
 /* FOOTER */
@@ -935,7 +940,7 @@ span.contact__illustration__title--sky-blue {
 
   .contact__contact-me__form__group input,
   .contact__contact-me__form__group textarea {
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
   }
 
