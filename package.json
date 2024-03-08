@@ -1,0 +1,24 @@
+{
+  "name": "budigunawan.com",
+  "version": "1.0.0",
+  "description": "Budi Indra Gunawan Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budiigunawan/budigunawan.com.git"
+  },
+  "author": "budiigunawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/budiigunawan/budigunawan.com/issues"
+  },
+  "homepage": "https://github.com/budiigunawan/budigunawan.com#readme",
+  "devDependencies": {
+    "vite": "^5.1.5"
+  }
+}
