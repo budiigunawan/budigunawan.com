@@ -22,6 +22,10 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <!-- HEADER -->
@@ -38,8 +42,8 @@
           </a>
           <ul class="poppins-medium navigation__links">
             <li><a href="/">Home</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/blog/">Blog</a></li>
             <li><a href="/contact/" class="link--active">Contact</a></li>
           </ul>
           <button class="navigation__bars-button">
@@ -53,8 +57,8 @@
         <div class="m-navigation">
           <ul class="poppins-medium m-navigation__links">
             <li><a href="/">Home</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/projects/">Projects</a></li>
+            <li><a href="/blog/">Blog</a></li>
             <li><a href="/contact/" class="link--active">Contact</a></li>
           </ul>
         </div>
@@ -84,26 +88,32 @@
           </div>
           <div class="contact__contact-me">
             <h3 class="contact__contact-me__title plus-jakarta">Contact me</h3>
-            <form
-              action="mailto:baygon@mail.com"
-              method="post"
-              enctype="text/plain"
-              class="contact__contact-me__form"
-            >
+            <form id="contactForm" class="contact__contact-me__form">
               <div class="contact__contact-me__form__group poppins-regular">
                 <label class="plus-jakarta" for="name">Your name</label>
                 <input
                   type="text"
+                  id="name"
                   name="name"
                   placeholder="Enter your fullname"
                   required
                 />
               </div>
               <div class="contact__contact-me__form__group poppins-regular">
-                <label class="plus-jakarta" for="message">Your Messages</label>
+                <label class="plus-jakarta" for="email">Your email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="contact__contact-me__form__group poppins-regular">
+                <label class="plus-jakarta" for="messages">Your Messages</label>
                 <textarea
-                  name="message"
-                  id="message"
+                  name="messages"
+                  id="messages"
                   cols="30"
                   rows="8"
                   placeholder="Leave whatever you like to say—message, appreciation, suggestions."
@@ -112,6 +122,7 @@
                 ></textarea>
               </div>
               <button
+                id="submitButton"
                 type="submit"
                 class="contact__contact-me__form__button plus-jakarta"
               >
@@ -155,9 +166,6 @@
         <p class="footer__subtitle plus-jakarta">© Budi Gunawan 2024</p>
       </div>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/1d3eb649b6.js"
-      crossorigin="anonymous"
-    ></script>
+    <script type="module" src="./contact.js"></script>
   </body>
 </html>
