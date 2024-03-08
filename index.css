@@ -647,6 +647,18 @@ span.contact__illustration__title--sky-blue {
   font-weight: 600;
 }
 
+.contact__contact-me__form__button:hover {
+  background-color: var(--dark-navy);
+  border: 1px solid var(--dark-navy);
+}
+
+button:disabled,
+button:hover:disabled,
+button[disabled] {
+  border: 1px solid var(--grey);
+  background-color: var(--grey);
+}
+
 /* FOOTER */
 .footer {
   background-color: var(--navy);

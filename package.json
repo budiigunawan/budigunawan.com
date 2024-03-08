@@ -22,6 +22,7 @@
     "vite": "^5.1.5"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6"
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.6.7"
   }
 }
