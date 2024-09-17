@@ -107,14 +107,14 @@ h6 {
 /* ==================== FONTS START ===================== */
 /* poppins */
 .poppins-regular {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.3px;
 }
 
 .poppins-medium {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.3px;
@@ -123,7 +123,7 @@ h6 {
 /* plus jakarta sans */
 
 .plus-jakarta {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   letter-spacing: 0.3px;
@@ -131,7 +131,7 @@ h6 {
 
 /* homemade apple */
 .homemade-apple {
-  font-family: 'Homemade Apple', cursive;
+  font-family: "Homemade Apple", cursive;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.3px;
@@ -180,7 +180,8 @@ header {
   display: none;
   list-style-type: none;
   width: 20.5rem;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 24px;
 }
 
 .navigation__links a,
@@ -201,7 +202,7 @@ header {
   color: var(--smoke-white);
 }
 
-.navigation__bars-button input[type='checkbox'] {
+.navigation__bars-button input[type="checkbox"] {
   appearance: none;
 }
 
@@ -224,21 +225,21 @@ header {
 }
 
 /*determining whether the header contains a checkbox input that is checked before expanding the mobile navigation's height to 140 pixels to make it visible.*/
-header:has(.navigation__bars-button input[type='checkbox']:checked)
+header:has(.navigation__bars-button input[type="checkbox"]:checked)
   .m-navigation__links {
   margin-top: 8px;
   height: 152px;
 }
 
 /* Hiding the bars icon on checkbox checked state */
-header:has(.navigation__bars-button input[type='checkbox']:checked)
+header:has(.navigation__bars-button input[type="checkbox"]:checked)
   .navigation__bars-button
   .fa-bars {
   display: none;
 }
 
 /* Showing the cross icon on checkbox checked state */
-header:has(.navigation__bars-button input[type='checkbox']:checked)
+header:has(.navigation__bars-button input[type="checkbox"]:checked)
   .navigation__bars-button
   .fa-close {
   display: inline-block;
@@ -441,6 +442,7 @@ header:has(.navigation__bars-button input[type='checkbox']:checked)
   padding: 16px;
   background-color: var(--navy);
   border-radius: 5px;
+  min-height: 270px;
 }
 
 .projects__card__title {
@@ -825,7 +827,7 @@ button[disabled] {
   }
 
   .tooltip .tooltip-text::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 100%;
     left: 50%;
